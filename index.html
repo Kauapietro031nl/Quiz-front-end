@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz Da Programação</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <h1 id="main-title">Quizz de Programação</h1>
+    <!--SCORE BOARD-->
+    <div id="score-container" class="hide">
+        <h2>Parabéns</h2>
+        <p id="display-score"><span>90</span>%</p>
+        <p>Você acertou <span id="correct-answers">0</span> de <span id="question-qty">10</span></p>
+        <button id="restart">Refazer Quizz!</button>
+    </div>
+    <!--QUIZZ CONTAINER-->
+    <div id="quizz-container">
+        <p id="question"><span id="question-number">1</span><span id="question-text"> -Lorem, ipsum dolor sit amet
+                consectetu ?</span>
+        </p>
+
+        <div id="answers-box">
+            <button class="correct-answers"><span class="btn-letter">A</span><span
+                    class="question-answer">m</span></button>
+            <button class="wrong-answers"><span class="btn-letter">B</span><span
+                    class="question-answer">m</span></button>
+            <button><span class="btn-letter">C</span><span class="question-answer">m</span></button>
+            <button><span class="btn-letter">D</span><span class="question-answer">m</span></button>
+        </div>
+    </div>
+
+
+
+
+    <!--TEMPLATE RESPOSTA-->
+
+    <button class="answer-template hide"><span class="btn-letter">D</span><span
+            class="question-answer">m</span></button>
+
+
+
+
+
+
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>
